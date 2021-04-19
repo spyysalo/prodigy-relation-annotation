@@ -1,0 +1,36 @@
+{
+    "buttons": [ "accept", "reject", "undo" ],
+    "force_stream_order": true,
+    "global_css": "
+div.prodigy-content {
+  line-height: 2;
+}
+
+span.mention {
+  margin: 0 0.15em;
+  display: inline;
+  padding: 0.25em 0.4em;
+  font-weight: bold;
+  line-height: 1;
+  box-decoration-break: clone;
+}
+
+span.mention-type {
+  color: #583fcf;
+  font-size: 0.675em;
+  font-weight: bold;
+  font-family: \"Roboto Condensed\", \"Arial Narrow\", sans-serif;
+  margin-left: 8px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+span.PERSON {
+  background: #85ee85;
+}
+
+span.ORG {
+  background: #aaf;
+}
+"
+}
